@@ -6,7 +6,7 @@ import { CONSTANT } from '../../utility/constant';
 @Component({
     templateUrl: '../prod/components/home/home.html',
     styleUrls: ['../prod/components/home/home.css'],
-    directives: [ROUTER_DIRECTIVES]
+    directives: [ROUTER_DIRECTIVES],
     providers: [HomeService]
 })
 export class HomeComponent implements OnInit {

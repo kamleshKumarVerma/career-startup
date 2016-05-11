@@ -31,4 +31,4 @@ export class HomeService {
 }
 
 
-href: ['Fitness', {type: 'slimming_centers'}]
+//href: ['Fitness', {type: 'slimming_centers'}]
