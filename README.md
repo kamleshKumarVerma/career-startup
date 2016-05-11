@@ -14,11 +14,7 @@ Follow the following steps and you're good to go! Important: Typescript and npm 
 ```
 npm install
 ```
-3: Run gulp (for generating ES-5 compatible code)
-```
-gulp
-```
-4: Start server (includes auto refreshing) and gulp watcher
+3: Start server (includes auto refreshing) and gulp watcher
 ```
 npm start
 ```
