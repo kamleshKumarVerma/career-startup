@@ -1,0 +1,34 @@
+/*!
+ * Start Bootstrap
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.loading {
+    background: url('../../assets/img/loader.gif') center center no-repeat scroll;
+    height: 200px;
+}
+
+/* Overiding Bootstrap CSS with our custom Requirements */
+
+input {
+	border-radius: 0px! important;
+}
+
+button {
+	border-radius: 0px! important;
+}
+
+alert {
+	position: fixed;
+    z-index: 9999;
+}
+
+.alert {
+	border-radius: 20px;
+    padding: 8px;
+}
