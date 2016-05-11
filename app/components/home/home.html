@@ -1,0 +1,78 @@
+<!-- Image Background Page Header -->
+<!-- Note: The background image is set within the business-casual.css file. -->
+<header class="business-header">
+    <div class="container">
+        <div class="row">
+        	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        	</div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                
+                <div class="form-group custom-color-for-over-img">
+				  <label for="sel1">City:</label>
+				  <select class="form-control" id="sel1">
+				    <option>Indore</option>
+				    <option>Banglore</option>
+				    <option>Jaipur</option>
+				    <option>Mumbai</option>
+				  </select>
+				  <label for="sel1">Education Type:</label>
+				  <select class="form-control" id="sel1">
+				    <option>School</option>
+				    <option>College</option>
+				    <option>Coaching</option>
+				    <option>Tuition</option>
+				  </select>
+				  <label for="sel1">Class/Degree:</label>
+				  <select class="form-control" id="sel1">
+				    <option>BBA</option>
+				    <option>MCA</option>
+				    <option>MBA</option>
+				    <option>BSc</option>
+				  </select>
+				</div>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Page Content -->
+<div class="container">
+    <hr>
+    <div class="row">
+        <div class="col-sm-8">
+            <h2>How would you like to get started today?</h2>
+            <p>In the Web site, You can find best place for education , even for school, college ,
+                coaching , tuition etc , you can have one best education center ...
+            </p>
+            <p>
+                <a class="btn btn-default btn-lg" >Build Career &raquo;</a>
+            </p>
+        </div>
+        <div class="col-sm-4">
+            <h2>Contact Us</h2>
+            <address>
+                <strong>Angular-2</strong>
+                <br>#51/16 Tavarekere , BTM 1st 
+                <br>Bangalore, 560029
+                <br>
+            </address>
+            <address>
+                <abbr title="Phone">P:</abbr>(+91) 78478-26750
+                <br>
+                <abbr title="Email">E:</abbr> <a href="mailto:#">magic@angular2.com</a>
+            </address>
+        </div>
+    </div>
+    <!-- /.row -->
+    <hr>
+    <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3" *ngFor="let menu of menus">
+            <a [routerLink]="menu.href">
+                <img class="img-circle img-responsive img-center" src="{{menu.img_url}}">
+            </a>
+            <center><h2>{{menu.label}}</h2></center>
+        </div>
+    </div>
+</div>
+<!-- /.container -->

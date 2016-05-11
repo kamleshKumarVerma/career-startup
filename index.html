@@ -1,24 +1,36 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <title>Angular 2 QuickStart</title>
+    <base href="/">
+    <title>Career Startup</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
+
+    <!-- Third party CSS (bootstrap and font-awesome) -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <!-- Custom main global CSS -->
+    <link rel="stylesheet" href="prod/styles/main.css">
 
     <!-- Polyfill(s) for older browsers -->
     <script src="node_modules/es6-shim/es6-shim.min.js"></script>
-
     <script src="node_modules/zone.js/dist/zone.js"></script>
     <script src="node_modules/reflect-metadata/Reflect.js"></script>
     <script src="node_modules/systemjs/dist/system.src.js"></script>
-
     <script src="systemjs.config.js"></script>
+
     <script>
       System.import('prod').catch(function(err){ console.error(err); });
     </script>
-  </head>
 
+  </head>
   <body>
-    <my-app>Loading...</my-app>
+
+      <!-- first component selector -->
+      <my-app>
+        <div class="loading"></div>
+      </my-app>
+
   </body>
 </html>
