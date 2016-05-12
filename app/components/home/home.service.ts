@@ -4,23 +4,23 @@ import {Injectable} from '@angular/core';
 export class HomeService {
 
 	public menus: Array<any> = [{
-        label: 'Search by School name',
-        href: ['Searchby', {educationType: 'School'}],
+        label: 'Searching for School',
+        href: ['Searchby', {educationType: 'school'}],
         img_url: '../../assets/img/school.jpg'
     },
     {
-        label: 'Search by College name',
-        href: ['Searchby', {educationType: 'College'}],
+        label: 'Searching for College',
+        href: ['Searchby', {educationType: 'college'}],
         img_url: '../../assets/img/college.jpg'
     },
     {
-        label: 'Search by Coaching name',
-        href: ['Searchby', {educationType: 'Coaching'}],
+        label: 'Searching for Coaching',
+        href: ['Searchby', {educationType: 'coaching'}],
         img_url: '../../assets/img/coaching.jpg'
     },
     {
-        label: 'Search by Tuition name',
-        href: ['Searchby', {educationType: 'Tuition'}],
+        label: 'Searching for Tuition',
+        href: ['Searchby', {educationType: 'tuition'}],
         img_url: '../../assets/img/tuition.jpg'
     }];
 

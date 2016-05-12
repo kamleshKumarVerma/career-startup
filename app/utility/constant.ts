@@ -1,5 +1,4 @@
 export const CONSTANT = {
-	"APP_NAME" : "Fitness-zone",
-	"APP_TAGLINE": "stay fit ,be energetic",
-	"BASE_URL" : "https://fitnesszone.apispark.net/v2/"
+	"APP_NAME" : "Career Startup",
+	"APP_TAGLINE": "Find your best place for Education"
 };

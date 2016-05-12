@@ -1,5 +1,9 @@
 /* Header Image Background */
 
+.brand-heading { 
+    color: yellow;
+}
+
 .business-header {
     height: 400px;
     background: url('../../assets/img/main-banner.jpg') center center no-repeat scroll;
@@ -20,7 +24,7 @@
     margin: 0 auto;
 }
 
-.custom-color-for-over-img {
+.data-over-img {
 	margin-top: 100px;
 	color: white;
 }

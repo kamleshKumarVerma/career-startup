@@ -2,12 +2,15 @@
 <!-- Note: The background image is set within the business-casual.css file. -->
 <header class="business-header">
     <div class="container">
-        <div class="row">
+        <div class="row data-over-img">
         	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="brand-heading">
+                    <h2>{{appName}}</h2>
+                    <small>{{appTagLine}}</small>
+                </div>
         	</div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                
-                <div class="form-group custom-color-for-over-img">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="form-group">
 				  <label for="sel1">City:</label>
 				  <select class="form-control" id="sel1">
 				    <option>Indore</option>
@@ -30,7 +33,11 @@
 				    <option>BSc</option>
 				  </select>
 				</div>
-
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                <div>
+                    <img class="img-responsive" src="../../assets/img/search-button.png">
+                </div>
             </div>
         </div>
     </div>
