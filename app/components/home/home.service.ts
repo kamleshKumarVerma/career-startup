@@ -29,6 +29,3 @@ export class HomeService {
 	}
 
 }
-
-
-//href: ['Fitness', {type: 'slimming_centers'}]
