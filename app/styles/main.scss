@@ -6,11 +6,11 @@
 
 body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-	background:#fff url(../../assets/img/body.gif) repeat-x 0 0;
-	font-family: 'Sans-Serif', serif;
-	font-size: 15px;
-	color : #848484;
-	padding-top:50px
+    background:#fff url(../../assets/img/body.gif) repeat-x 0 0;
+    font-family: 'Sans-Serif', serif;
+    font-size: 15px;
+    color : #848484;
+    padding-top:50px
 }
 
 .loading {
@@ -18,8 +18,8 @@ body {
     display: block; 
     position: absolute;
     width: 100%;
-	height: 100%;
-	z-index: 9999;
+    height: 100%;
+    z-index: 9999;
 }
 
 
