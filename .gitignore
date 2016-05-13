@@ -5,3 +5,4 @@ node_modules
 prod
 typings
 .idea
+npm-debug.log

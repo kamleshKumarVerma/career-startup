@@ -94,5 +94,12 @@ th, td {
     border-bottom: 1px solid #ddd;
 }
 
-
-tr:hover{background-color:#f5f5f5}
+.checkbox-border div {
+    transition: 1s ease;
+}
+.checkbox-border div:hover{
+  -moz-box-shadow: 0 0 2px orange; 
+  -webkit-box-shadow: 0 0 2px orange; 
+  border: 1px solid #ccc;
+  box-shadow: 0 0 2px #ccc; 
+}
